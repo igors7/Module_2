@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:backgroundTint="#090909"
     tools:context=".MainActivity2">
 
     <TextView
@@ -12,5 +13,15 @@
         android:layout_height="wrap_content"
         android:text="TextView2"
         tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="329dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:alpha="0.5"
+        android:layout_width="410dp"
+        android:layout_height="227dp"
+        android:background="#101010"
+        app:srcCompat="@drawable/cat"
+        tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="329dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
