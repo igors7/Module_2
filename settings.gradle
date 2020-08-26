@@ -1,0 +1,5 @@
+include ':module2'
+include ':app:module12'
+include ':app:module1'
+include ':app'
+rootProject.name = "TestApplication"
