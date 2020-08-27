@@ -38,21 +38,21 @@ public class MainActivity extends Activity {
         fTrans = getFragmentManager().beginTransaction();
         switch (v.getId()) {
             case R.id.gofrag1:
-                fTrans.add(R.id.frgmCont, frag1);
+                fTrans.replace(R.id.frgmCont, frag1);
                /* fTrans.show(frag1);
                 fTrans.remove(frag2);
                 fTrans.remove(frag3);
                 fTrans.remove(frag4);*/
                 break;
             case R.id.gofrag2:
-                fTrans.add(R.id.frgmCont, frag2);
+                fTrans.replace(R.id.frgmCont, frag2);
                 /*fTrans.show(frag2);
                 fTrans.remove(frag1);
                 fTrans.remove(frag3);
                 fTrans.remove(frag4);*/
                 break;
             case R.id.gofrag3:
-                fTrans.add(R.id.frgmCont, frag3);
+                fTrans.replace(R.id.frgmCont, frag3);
                 /*fTrans.show(frag3);
                 fTrans.remove(frag1);
                 fTrans.remove(frag2);
@@ -60,14 +60,14 @@ public class MainActivity extends Activity {
                 break;*/
                 break;
             case R.id.gofrag4:
-                fTrans.add(R.id.frgmCont, frag4);
+                fTrans.replace(R.id.frgmCont, frag4);
                 /*fTrans.show(frag4);
                 fTrans.remove(frag1);
                 fTrans.remove(frag2);
                 fTrans.remove(frag3);*/
                 break;
             case R.id.gofrag5:
-                fTrans.add(R.id.frgmCont, frag5);
+                fTrans.replace(R.id.frgmCont, frag5);
                 /*fTrans.show(frag4);
                 fTrans.remove(frag1);
                 fTrans.remove(frag2);
