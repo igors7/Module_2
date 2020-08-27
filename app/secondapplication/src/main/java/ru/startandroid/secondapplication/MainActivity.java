@@ -11,7 +11,7 @@ import android.widget.CheckBox;
 
 public class MainActivity extends Activity {
 
-    //Fragment1 frag1;
+    Fragment1 frag1;
     Fragment2 frag2;
     Fragment3 frag3;
     Fragment4 frag4;
